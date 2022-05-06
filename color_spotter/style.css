@@ -27,6 +27,11 @@
     border:1px solid gainsboro;
  }
 
+ .box:hover{
+    border-color:blue;
+    cursor: pointer;
+ }
+
  .score__container{
     width:100px;
     margin:auto;
