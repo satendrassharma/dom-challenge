@@ -77,3 +77,10 @@ form{
 #seconds{
   padding: 0.4rem 1rem;
 }
+
+@media  screen and (max-width:425px) {
+  div.container{
+    width:95%;
+    margin:auto;
+  }
+}
