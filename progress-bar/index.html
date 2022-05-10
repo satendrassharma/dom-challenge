@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Progress Bar - Challenge 5</title>
+</head>
+<body>
+  <div class="container">
+      <form>
+        <p>Change animation Duration</p>
+        <input type="number" id="seconds" placeholder="Enter the animation durartion(in seconds)">
+        <button type="submit" class="btn">submit</button>
+        <p>Animation Duration: <span id="animation_duration_text">3s</span></p>
+      </form>
+
+    <div class="progress__wrapper">
+      <div class="progress__bar"></div>
+    </div>
+    <button id="run" class="btn">Run <span class="queue-value"></span></button>
+    <button id="pause" class="btn">Pause</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
